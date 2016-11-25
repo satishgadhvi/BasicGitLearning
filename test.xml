@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<spg>
+		<!--  Need to add manually property details for Category 1 to 7 which supports Cash & points rate, with category wise starpoints and rates value as its Data provider -->
+		<categoryHotelData>
+			<dataProvider>
+            	<checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <propertyName>The Westin Bayshore, Vancouver_25th Sept</propertyName>
+                <propertyId>81</propertyId>
+                <categoryType>1</categoryType>
+                <starpoints>1,500</starpoints>
+                <rates>30</rates>
+        	</dataProvider>
+        	<dataProvider>
+            	<checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <propertyName>Four Points by Sheraton Philadelphia
+						AirportConference</propertyName>
+                <propertyId>81</propertyId>
+                <categoryType>2</categoryType>
+                <starpoints>2,000</starpoints>
+                <rates>35</rates>
+        	</dataProvider>
+        	<dataProvider>
+                <checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <propertyName>The Westin Grande Sukhumvit, Bangkok</propertyName>
+                <propertyId>81</propertyId>
+                <categoryType>3</categoryType>
+                <starpoints>3,500</starpoints>
+                <rates>55</rates>
+            </dataProvider>            
+            <dataProvider>
+            	<checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <propertyName>Sheraton Grande Sukhumvit, Bangkok</propertyName>
+                <propertyId>81</propertyId>
+                <categoryType>4</categoryType>
+                <starpoints>5,000</starpoints>
+                <rates>75</rates>
+            </dataProvider>
+            <dataProvider>
+                <checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <propertyName>Sheraton on The Park</propertyName>
+                <propertyId>81</propertyId>
+                <categoryType>5</categoryType>
+                <starpoints>6,000</starpoints>
+                <rates>110</rates>
+            </dataProvider>
+            <dataProvider>
+            	<checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <propertyName>W Hong Kong</propertyName>
+                <propertyId>81</propertyId>
+                <categoryType>6</categoryType>
+                <starpoints>10,000</starpoints>
+                <rates>180</rates>
+            </dataProvider>
+            <dataProvider>
+            	<checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <propertyName>The St. Regis Bal Harbour Resort</propertyName>
+                <propertyId>81</propertyId>
+                <categoryType>7</categoryType>
+                <starpoints>15,000</starpoints>
+                <rates>275</rates>
+           	</dataProvider>
+		</categoryHotelData>
+		
+		<!--  Need to add manually property details for Category 2,3 & 5 which supports Free nights rate as its Data provider -->
+		<free5NightsData>
+			<dataProvider>
+				<checkinDate>2</checkinDate>
+	            <checkoutDate>7</checkoutDate>
+	            <propertyName>Four Points by Sheraton Philadelphia AirportConference</propertyName>
+	            <propertyId>81</propertyId>
+	            <categoryType>2</categoryType>
+	            <stayDays>5</stayDays>
+	            <StayDaysMoreThan5>6</StayDaysMoreThan5>
+	            <StayDaysExact30>30</StayDaysExact30>
+	            <StayDaysMoreThan30>32</StayDaysMoreThan30>
+			</dataProvider>
+			<dataProvider>
+				<checkinDate>2</checkinDate>
+            	<checkoutDate>5</checkoutDate>
+            	<propertyName>The Westin Grande Sukhumvit, Bangkok</propertyName>
+            	<propertyId>81</propertyId>
+           		<categoryType>3</categoryType>
+           		<stayDays>3</stayDays>
+           		<StayDaysMoreThan5>6</StayDaysMoreThan5>
+	            <StayDaysExact30>30</StayDaysExact30>
+	        	<StayDaysMoreThan30>32</StayDaysMoreThan30>
+			</dataProvider>
+			<dataProvider>
+				<checkinDate>2</checkinDate>
+	            <checkoutDate>5</checkoutDate>
+	            <propertyName>Sheraton on the Park</propertyName>
+	            <propertyId>81</propertyId>
+	            <categoryType>5</categoryType>
+	            <stayDays>3</stayDays>
+             	<StayDaysMoreThan5>6</StayDaysMoreThan5>
+	            <StayDaysExact30>30</StayDaysExact30>
+	            <StayDaysMoreThan30>32</StayDaysMoreThan30>
+             </dataProvider>
+		</free5NightsData>
+		
+		<!--  Need to add manually property details for Category 3 & 5 which supports Free nights rate as its Data provider -->
+		<noFree5NightsData>
+			<dataProvider>
+				<checkinDate>2</checkinDate>
+            	<checkoutDate>9</checkoutDate>
+            	<propertyName>The Westin Grande Sukhumvit, Bangkok</propertyName>
+            	<propertyId>81</propertyId>
+           		<categoryType>4</categoryType>
+			</dataProvider>
+			<dataProvider>
+				<checkinDate>2</checkinDate>
+				<checkoutDate>9</checkoutDate>
+				<propertyName>Sheraton on the Park</propertyName>
+				<propertyId>140</propertyId>
+				<categoryType>5</categoryType>
+			</dataProvider>
+		</noFree5NightsData>
+		
+		<!-- Need to add manually property details which supports Free nights and Cash & points both rates -->
+		<spgfnSpgcp>
+			<destination>New York</destination>
+			<room>1</room>
+			<adult>1</adult>
+            <propertyName>Sheraton Grande Sukhumvit, Bangkok</propertyName>
+            <checkinDate>15</checkinDate>
+            <checkoutDate>16</checkoutDate>
+            <propertyId>81</propertyId>
+            <ratePrefrence>SPGFreeNights</ratePrefrence>
+            <ratePrefrence>SPGCashPoints</ratePrefrence>
+            <specialRequest>QA Test Booking</specialRequest>
+            <categoryType>1</categoryType>
+		</spgfnSpgcp>
+		
+		<!-- Need to add manually property details which supports Lowest Standard rate as its Data provider -->
+		<moperHavingData>
+			<dataProvider>
+			<!-- 	moper Supported Mobile No -->
+				<username>is_moper1@mailinator.com</username>
+				<password>test123</password>
+				<phoneNo>2866875001</phoneNo>
+				<countryCode>CA (+1)</countryCode>
+			</dataProvider>
+			<dataProvider>
+			<!-- 	moper Supported, Unsupported, Multiple Mobile No, Other No -->
+				<username>is_moper5@mailinator.com</username>
+				<password>test123</password>
+				<phoneNo>05532245533</phoneNo>
+				<countryCode>GB (+44)</countryCode>
+			</dataProvider>
+			<dataProvider>
+				<!-- moper Supported, Unsupported, Multiple Mobile No -->
+				<username>is_moper4@mailinator.com</username>
+				<password>test123</password>
+				<phoneNo>1234567000</phoneNo>
+				<countryCode>AU (+61)</countryCode>
+			</dataProvider>
+			<dataProvider>
+				<!-- moper Supported, Multiple Mobile No -->
+				<username>is_moper3@mailinator.com</username>
+				<password>test123</password>
+				<phoneNo>07927464098</phoneNo>
+				<countryCode>IN (+91)</countryCode>
+			</dataProvider>
+		</moperHavingData>
+		
+		<moperNoData>
+			<dataProvider>
+				<!-- moper No Supported Mobile No -->
+				<username>is_moper2@mailinator.com</username>
+				<password>test123</password>
+				<phoneNo>8956238956</phoneNo>
+				<countryCode>US (+1)</countryCode>
+			</dataProvider>
+			<dataProvider>
+				<!-- moper No Mobile no -->
+				<username>42869821386</username>
+				<password>test123</password>
+				<phoneNo>8956238956</phoneNo>
+				<countryCode>US (+1)</countryCode>
+			</dataProvider>
+		</moperNoData>
+		
+		<moperDiffCountryData>
+			<dataProvider>
+				<!-- Phone no for India -->
+				<username>42920008997</username>
+				<password>test123</password>
+				<phoneNo>9909909909</phoneNo>
+				<countryCode>IN (+91)</countryCode>
+			</dataProvider>
+			<dataProvider>
+				<!-- Phone no for Australia -->
+				<username>42920008997</username>
+				<password>test123</password>
+				<phoneNo>9909909909</phoneNo>
+				<countryCode>AU (+61)</countryCode>
+			</dataProvider>
+			<dataProvider>
+				<!-- Phone no for United States -->
+				<username>42920008997</username>
+				<password>test123</password>
+				<phoneNo>9909909909</phoneNo>
+				<countryCode>US (+1)</countryCode>
+			</dataProvider>
+			<dataProvider>
+				<!-- Phone no for Indonesia -->
+				<username>42920008997</username>
+				<password>test123</password>
+				<phoneNo>9909909909</phoneNo>
+				<countryCode>BE (+32)</countryCode>
+			</dataProvider>
+			<dataProvider>
+				<!-- Phone no for China -->
+				<username>42920008997</username>
+				<password>test123</password>
+				<phoneNo>9909909909</phoneNo>
+				<countryCode>CN (+86)</countryCode>
+			</dataProvider>
+			<dataProvider>
+				<!-- Phone no for France -->
+				<username>42920008997</username>
+				<password>test123</password>
+				<phoneNo>9909909909</phoneNo>
+				<countryCode>FR (+33)</countryCode>
+			</dataProvider>
+			<dataProvider>
+				<!-- Phone no for Germany -->
+				<username>42920008997</username>
+				<password>test123</password>
+				<phoneNo>9909909909</phoneNo>
+				<countryCode>DE (+49)</countryCode>
+			</dataProvider>
+			<dataProvider>
+				<!-- Phone no for Canada -->
+				<username>42920008997</username>
+				<password>test123</password>
+				<phoneNo>9909909909</phoneNo>
+				<countryCode>CA (+1)</countryCode>
+			</dataProvider>
+			<dataProvider>
+				<!-- Phone no for Hong Kong -->
+				<username>42920008997</username>
+				<password>test123</password>
+				<phoneNo>9909909909</phoneNo>
+				<countryCode>AW (+297)</countryCode>
+			</dataProvider>
+			<dataProvider>
+				<!-- Phone no for United Kingdom -->
+				<username>42920008997</username>
+				<password>test123</password>
+				<phoneNo>9909909909</phoneNo>
+				<countryCode>GB (+44)</countryCode>
+			</dataProvider>
+		</moperDiffCountryData>
+		
+		<RatePreferenceSeperateSet>
+			<dataProvider>
+				<!-- Lowest Standard Rate Preference -->
+				<lowestRatePreference>Lowest Standard Rate</lowestRatePreference>
+			 	<lowestPropertyName>The St. Regis Florence</lowestPropertyName>
+			 	<!-- SPG Free Nights -->
+				<spgRatePreference>SPG Free Nights</spgRatePreference>
+			 	<spgPropertyName>The St. Regis Florence</spgPropertyName>
+			 	<!-- SET/Corporate Account -->
+				<setRatePreference>SET/Corporate Account #:</setRatePreference>
+				<setPropertyName>The St. Regis Florence</setPropertyName>
+				<setNumber>564768346</setNumber>	
+			</dataProvider>	
+		</RatePreferenceSeperateSet>
+		
+		<dynamicRatePreferences>	
+			<dataProvider>
+                <!--SPG Cash and Points -->
+			    <ratePreference>SPG Cash &amp; Points</ratePreference>
+			    <propertyName>Four Points by Sheraton Bakersfield</propertyName>
+			    <propertyId>81</propertyId>
+			</dataProvider>
+			<dataProvider>
+				<!--SPG Member-Only Hot Escapes -->
+				<ratePreference>SPG Member-Only Hot Escapes</ratePreference>
+				<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				<propertyId>81</propertyId>
+			</dataProvider>	
+			<dataProvider>
+				<!-- Breakfast Package -->
+				<ratePreference>Breakfast Package</ratePreference>
+			 	<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+			 	<propertyId>81</propertyId>
+			</dataProvider>	
+			<dataProvider>
+				<!-- SPG Breakfast Plus -->
+				<ratePreference>SPG Breakfast Plus</ratePreference>
+				<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				<propertyId>81</propertyId>
+			</dataProvider>	
+			<dataProvider>
+				<!-- Promotion & Packages -->
+				<ratePreference>Promotions &amp; Packages</ratePreference>
+				<propertyName>Four Points by Sheraton NewBurgh Stewart Airport</propertyName>
+				<propertyId>81</propertyId>
+			</dataProvider>	
+			<dataProvider>
+				<!-- Automobile Association -->
+				<ratePreference>Automobile Association</ratePreference>
+			 	<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+			 	<propertyId>81</propertyId>
+			</dataProvider>	
+			<dataProvider>
+				<!-- Senior & AARP -->
+				<ratePreference>Senior &amp; AARP</ratePreference>
+				<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				<propertyId>81</propertyId>
+			</dataProvider>	
+			<dataProvider>
+				<!-- Government Employee -->
+				<ratePreference>Government Employee</ratePreference>
+				<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				<propertyId>81</propertyId>
+			</dataProvider>	
+		</dynamicRatePreferences>	
+		
+		<SPGFreeFormText>
+			<dataProvider>
+				<!-- Random invalid Search Value -->
+				<propertyName>ABCDEFG</propertyName>
+			</dataProvider>
+			<dataProvider>
+				<!-- City Search Value -->
+				<propertyName>Jaipur,India</propertyName>
+			</dataProvider>
+			<dataProvider>
+				<!-- State Search Value -->
+				<propertyName>Gujarat</propertyName>
+			</dataProvider>
+			<dataProvider>
+				<!-- Country Search Value -->
+				<propertyName>Canada</propertyName>
+			</dataProvider>
+			<dataProvider>
+				<!-- Airport Search Value -->
+				<propertyName>DFW</propertyName>	
+			</dataProvider>		
+		</SPGFreeFormText>
+		
+		<SPGPShortVersionnoStayPreferences>
+			<checkinDate>25</checkinDate>
+	        <checkoutDate>26</checkoutDate>
+	        <propertyName>SHERATON PHOENIX DOWNTOWN HOTEL</propertyName>
+	        <propertyId>81</propertyId>
+	        <categoryType>1</categoryType>
+	        <stayDays>5</stayDays>
+		</SPGPShortVersionnoStayPreferences>
+		<SPGPShortVersionnoTooLatetoSetPreferences>
+		    <checkinDate>0</checkinDate>
+	        <checkoutDate>1</checkoutDate>
+	        <propertyName>SHERATON PHOENIX DOWNTOWN HOTEL</propertyName>
+	        <propertyId>81</propertyId>
+	        <categoryType>1</categoryType>
+	        <stayDays>5</stayDays>
+		</SPGPShortVersionnoTooLatetoSetPreferences>
+		
+		<MultipleRate>
+			<dataProvider>
+				<!-- SPG Cash and Points -->
+				<ratePreference>SPG Cash &amp; Points</ratePreference>
+				<!-- SPG Member-only Hot Escapes -->		
+				<ratePreference1>SPG Member-Only Hot Escapes</ratePreference1>
+			</dataProvider>
+			<dataProvider>
+				<!-- Breakfast Package -->
+				<ratePreference>Breakfast Package</ratePreference>
+				<!-- SPG Breakfast Plus -->
+				<ratePreference1>SPG Breakfast Plus</ratePreference1>
+			</dataProvider>
+			<dataProvider>
+				<!-- Promotion & Packages -->
+				<ratePreference>Promotions &amp; Packages</ratePreference>
+				<!-- Automobile Association -->
+				<ratePreference1>Automobile Association</ratePreference1>
+			</dataProvider>
+			<dataProvider>
+				<!-- Senior & AARP -->
+				<ratePreference>Senior &amp; AARP</ratePreference>
+				<!-- Government Employee -->
+				<ratePreference1>Government Employee</ratePreference1>
+			</dataProvider>
+      	</MultipleRate>	
+      	
+      	<SingleSearchText>
+      		 <dataProvider>
+				<!-- Random invalid Search Value -->
+				<propertyName>BOS</propertyName>
+			</dataProvider>
+		</SingleSearchText>
+		
+      	<MultipleSearchText>
+      		 <dataProvider>
+				<!-- Random invalid Search Value -->
+				<propertyName>DF</propertyName>
+			</dataProvider>
+			<dataProvider>
+				<!-- Random invalid Search Value -->
+				<propertyName>Las Vegas</propertyName>
+			</dataProvider>
+			<dataProvider>
+				<!-- City Search Value -->
+				<propertyName>Canada</propertyName>
+			</dataProvider>
+			<dataProvider>
+				<!-- State Search Value -->
+				<propertyName>Texas</propertyName>
+			</dataProvider>
+			<dataProvider>
+				<!-- Country Search Value -->
+				<propertyName>BOS</propertyName>
+			</dataProvider>
+			<dataProvider>
+				<!-- Airport Search Value -->
+				<propertyName>DFW</propertyName>	
+			</dataProvider>	
+			<dataProvider>
+				<!-- Invalid Airport Search Value -->
+				<propertyName>zzz</propertyName>	
+			</dataProvider>
+			<dataProvider>
+				<!-- Airport Search Value -->
+				<propertyName>New yo</propertyName>	
+			</dataProvider>			 	
+      	</MultipleSearchText>
+      	
+      	<RoomRatesDynamicRatePreferences>	
+      		<dataProvider>
+      		<!-- Lowest Standard Rate Preference -->
+				<ratePreference>Lowest Standard Rate</ratePreference>
+			 	<propertyName>Element New York Times Square West</propertyName>
+			 	<propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+			<dataProvider>
+			 	<!-- SPG Free Nights -->
+				<ratePreference>SPG Free Nights</ratePreference>
+			 	<propertyName>Element New York Times Square West</propertyName>
+			 	<propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>      	
+			<dataProvider>
+				<!-- SPG Cash and Points -->
+			    <ratePreference>SPG Cash &amp; Points</ratePreference>
+			    <propertyName>Element New York Times Square West</propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+<!-- 			<dataProvider> -->
+<!-- 				SPG Member-Only Hot Escapes -->
+<!-- 				<ratePreference>SPG Member-Only Hot Escapes</ratePreference> -->
+<!-- 			    <propertyName>Element New York Times Square West</propertyName> -->
+<!-- 					<propertyId>81</propertyId> -->
+<!-- 			    <checkinDate>15</checkinDate> -->
+<!-- 			    <checkoutDate>16</checkoutDate> -->
+<!-- 			</dataProvider> -->
+			<dataProvider>
+				<!-- Breakfast Package -->
+				<ratePreference>Breakfast Package</ratePreference>
+			    <propertyName>Element New York Times Square West</propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+			<dataProvider>
+				<!-- SPG Breakfast Plus -->
+				<ratePreference>SPG Breakfast Plus</ratePreference>
+			    <propertyName>Element New York Times Square West</propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+<!-- 			<dataProvider> -->
+<!-- 				Promotion & Packages -->
+<!-- 				<ratePreference>Promotions &amp; Packages</ratePreference> -->
+<!-- 			    <propertyName>Element New York Times Square West</propertyName> -->
+<!-- 					<propertyId>81</propertyId> -->
+<!-- 			    <checkinDate>15</checkinDate> -->
+<!-- 			    <checkoutDate>16</checkoutDate> -->
+<!-- 			</dataProvider> -->
+			<dataProvider>
+				<!-- Automobile Association -->
+				<ratePreference>Automobile Association</ratePreference>
+			    <propertyName>Element New York Times Square West</propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+			<dataProvider>
+				<!-- Senior & AARP -->
+				<ratePreference>Senior &amp; AARP</ratePreference>
+			    <propertyName>Element New York Times Square West</propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+			<dataProvider>
+				<!-- Government Employee -->
+				<ratePreference>Government Employee</ratePreference>
+			    <propertyName>Element New York Times Square West</propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+		</RoomRatesDynamicRatePreferences>
+		
+		<emailID>
+				<dataProvider>
+					<id1>testtest@test.com</id1>
+					<confirmId1>testtest@test.in</confirmId1>
+					<id2>testtest@testcom</id2>
+					<confirmId2>testtest@testcom</confirmId2>
+					<id3>testtesttest.com</id3>
+					<confirmId3>testtesttest.com</confirmId3>
+				</dataProvider>
+		</emailID>
+		
+		<RoomRatesDynamicRatePreferencesIos>	
+      		<dataProvider>
+				<!-- SPG Cash and Points -->
+			    <ratePreference>SPG Cash &amp; Points</ratePreference>
+			    <propertyName>Four Points by Sheraton Plainview Long Island </propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+			<dataProvider>
+				<!-- SPG Member-Only Hot Escapes -->
+				<ratePreference>SPG Member-Only Hot Escapes</ratePreference>
+			    <propertyName>Four Points by Sheraton Plainview Long Island</propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+			<dataProvider>
+				<!-- Breakfast Package -->
+				<ratePreference>Breakfast Package</ratePreference>
+			    <propertyName>Four Points by Sheraton Plainview Long Island</propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+			<dataProvider>
+				<!-- SPG Breakfast Plus -->
+				<ratePreference>SPG Breakfast Plus</ratePreference>
+			    <propertyName>Four Points by Sheraton Plainview Long Island</propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+			<dataProvider>
+		       <!--Promotion & Packages -->
+				<ratePreference>Promotions &amp; Packages</ratePreference>
+			    <propertyName>Four Points by Sheraton Plainview Long Island</propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+			<dataProvider>
+				<!-- Automobile Association -->
+				<ratePreference>Automobile Association</ratePreference>
+			    <propertyName>Four Points by Sheraton Plainview Long Island</propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+			<dataProvider>
+				<!-- Senior & AARP -->
+				<ratePreference>Senior &amp; AARP</ratePreference>
+			    <propertyName>Four Points by Sheraton Plainview Long Island</propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+			<dataProvider>
+				<!-- Government Employee -->
+				<ratePreference>Government Employee</ratePreference>
+			    <propertyName>Four Points by Sheraton Plainview Long Island</propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+		</RoomRatesDynamicRatePreferencesIos>
+		
+		<rateSetCorporateAccDataiOS>
+		<dataProvider>
+				<!-- Lowest Standard Rate -->
+			    <ratePreference>Lowest Standard Rate</ratePreference>
+			    <propertyName>Element New York Times Square West</propertyName>
+			    <propertyId>81</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			</dataProvider>
+		<dataProvider>
+		 	<!-- SPG Free Nights -->
+		 	<ratePreference>SPG Free Nights</ratePreference>
+		 	<propertyName>Element New York Times Square West</propertyName>
+		 	<propertyId>81</propertyId>
+		 	<checkinDate>15</checkinDate>
+		 	<checkoutDate>16</checkoutDate>
+		 </dataProvider>
+		 <dataProvider>	
+		 	<!-- SPG Free Nights -->
+			<ratePreference>SET/Corporate Account #:</ratePreference>
+			<propertyName>The St. Regis New York</propertyName>
+			<propertyId>81</propertyId>
+			<setNumber>1234</setNumber>	
+			<checkinDate>15</checkinDate>
+		    <checkoutDate>16</checkoutDate>
+		    </dataProvider>
+		</rateSetCorporateAccDataiOS>
+		<RoomRatesDynamicRatePreferencesbooking> 
+		    <dataProvider>
+		        <!-- Lowest Standard Rate Preference -->
+		    	<ratePreference>Lowest Standard Rate</ratePreference>
+		     	<propertyName>The St. Regis New York</propertyName>
+		     	<propertyId>81</propertyId>
+		       <checkinDate>15</checkinDate>
+		       <checkoutDate>16</checkoutDate>
+		   </dataProvider>
+		   <dataProvider>
+		     	<!-- SPG Free Nights -->
+		   	 	<ratePreference>SPG Free Nights</ratePreference>
+		     	<propertyName>The St. Regis New York</propertyName>
+		     	<propertyId>81</propertyId>
+		       <checkinDate>15</checkinDate>
+		       <checkoutDate>16</checkoutDate>
+		  </dataProvider>       
+		   <dataProvider>
+			    <!-- SPG Cash and Points -->
+			       <ratePreference>SPG Cash &amp; Points</ratePreference>
+			       <propertyName>Four Points by Sheraton Niagara Falls</propertyName>
+			       <propertyId>3361</propertyId>
+			       <checkinDate>15</checkinDate>
+			       <checkoutDate>16</checkoutDate>
+			</dataProvider>
+		   <dataProvider>
+			<!--     SPG Member-Only Hot Escapes -->
+			    <ratePreference>SPG Member-Only Hot Escapes</ratePreference>
+			    <propertyName>Sheraton Guiyang Hotel</propertyName>
+			    <propertyId>1577</propertyId>
+			    <checkinDate>15</checkinDate>
+			    <checkoutDate>16</checkoutDate>
+			 </dataProvider>
+		   <dataProvider>
+		       <!-- Breakfast Package -->
+		    	<ratePreference>Breakfast Package</ratePreference>
+		        <propertyName>Four Points by Sheraton Midtown-Times Square</propertyName>
+		        <propertyId>3361</propertyId>
+		        <checkinDate>15</checkinDate>
+		        <checkoutDate>16</checkoutDate>
+		  </dataProvider>
+		   <dataProvider>
+		        <!-- SPG Breakfast Plus -->
+		       <ratePreference>SPG Breakfast Plus</ratePreference>
+		       <propertyName>Sheraton JFK Airport Hotel</propertyName>
+		       <propertyId>3361</propertyId>
+		       <checkinDate>15</checkinDate>
+		       <checkoutDate>16</checkoutDate>
+		   </dataProvider>
+		   <dataProvider>
+		       <!--     Promotion & Packages -->
+		       <ratePreference>Promotions &amp; Packages</ratePreference>
+		       <propertyName>Sheraton JFK Airport Hote</propertyName>
+		       <propertyId>81</propertyId>
+		       <checkinDate>15</checkinDate>
+		       <checkoutDate>16</checkoutDate>
+		  </dataProvider>
+		   <dataProvider>
+		       <!-- Automobile Association -->
+		       <ratePreference>Automobile Association</ratePreference>
+		       <propertyName>Aloft New York Brooklyn</propertyName>
+		       <propertyId>81</propertyId>
+		       <checkinDate>15</checkinDate>
+		       <checkoutDate>16</checkoutDate>
+		   </dataProvider>
+		   <dataProvider>
+		        <!-- Senior & AARP -->
+		        <ratePreference>Senior &amp; AARP</ratePreference>
+		       <propertyName>Aloft New York Brooklyn</propertyName>
+		       <propertyId>81</propertyId>
+		       <checkinDate>15</checkinDate>
+		       <checkoutDate>16</checkoutDate>
+		   </dataProvider>
+		   <dataProvider>
+		        <!-- Government Employee -->
+		       <ratePreference>Government Employee</ratePreference>
+		       <propertyName>Aloft New York Brooklyn</propertyName>
+		       <propertyId>81</propertyId>
+		       <checkinDate>15</checkinDate>
+		       <checkoutDate>16</checkoutDate>
+		 </dataProvider>
+		 </RoomRatesDynamicRatePreferencesbooking> 
+
+		<ios>		
+			<rateSetCorporateAccDataiOS>
+				<dataProvider>
+					<!-- Lowest Standard Rate -->
+				    <ratePreference>Lowest Standard Rate</ratePreference>
+				    <propertyName>Element New York Times Square West</propertyName>
+				    <propertyId>81</propertyId>
+				    <setNumber>1234</setNumber>
+				    <checkinDate>15</checkinDate>
+				    <checkoutDate>16</checkoutDate>
+				</dataProvider>
+				<dataProvider>
+				 	<!-- SPG Free Nights -->
+				 	<ratePreference>SPG Free Nights</ratePreference>
+				 	<propertyName>Element New York Times Square West</propertyName>
+				 	<propertyId>81</propertyId>
+				 	<setNumber>1234</setNumber>	
+				 	<checkinDate>15</checkinDate>
+				 	<checkoutDate>16</checkoutDate>
+				</dataProvider>
+				<dataProvider>	
+				 	<!-- SPG Free Nights -->
+					<ratePreference>SET/Corporate Account #:</ratePreference>
+					<propertyName>The St. Regis New York</propertyName>
+					<propertyId>81</propertyId>
+					<setNumber>1234</setNumber>	
+					<checkinDate>15</checkinDate>
+				    <checkoutDate>16</checkoutDate>
+		    	</dataProvider>
+			</rateSetCorporateAccDataiOS>
+			<SingleSearchText>
+				 <dataProvider>
+					<!-- Random invalid Search Value -->
+					<propertyName>BOS</propertyName>
+				</dataProvider>	
+			</SingleSearchText>
+			<RecentSearchText>
+				<dataProvider1>
+					<propertyName>Texas</propertyName>
+				</dataProvider1>
+				<dataProvider2>
+					<propertyName>BOS</propertyName>
+				</dataProvider2>	
+				<dataProvider3>
+					<propertyName>Canada</propertyName>
+				</dataProvider3>		
+			</RecentSearchText>
+			<FreeSearchText>
+				 <dataProvider1>
+					<!-- Random invalid Search Value -->
+					<propertyName>DF</propertyName>
+				</dataProvider1>
+				<dataProvider2>
+					<!-- City Search Value -->
+					<propertyName>Canada</propertyName>
+				</dataProvider2>
+				<dataProvider3>
+					<!-- State Search Value -->
+					<propertyName>Texas</propertyName>
+				</dataProvider3>
+				<dataProvider4>
+					<!-- Country Search Value -->
+					<propertyName>BOS</propertyName>
+				</dataProvider4>
+				<dataProvider5>
+					<!-- Airport Search Value -->
+					<propertyName>New yo</propertyName>	
+				</dataProvider5>			 	
+			</FreeSearchText>
+			<MultipleSearchText>
+				 <dataProvider1>
+					<propertyName>DF</propertyName>
+				</dataProvider1>
+				<dataProvider2>
+					<propertyName>BOS</propertyName>
+				</dataProvider2>
+				<dataProvider3>
+					<propertyName>zzz</propertyName>
+				</dataProvider3>
+				<dataProvider4>
+					<propertyName>New yo</propertyName>	
+				</dataProvider4>			 	
+			</MultipleSearchText>
+						
+			<dynamicRatePreferences1>	
+				<dataProvider>
+			        <!--SPG Cash and Points -->
+				    <ratePreference>SPG Cash &amp; Points</ratePreference>
+				    <propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				</dataProvider>
+				<dataProvider>
+					<!--SPG Member-Only Hot Escapes -->
+					<ratePreference>SPG Member-Only Hot Escapes</ratePreference>
+					<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				</dataProvider>	
+				<dataProvider>
+					<!-- Breakfast Package -->
+					<ratePreference>Breakfast Package</ratePreference>
+				 	<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				</dataProvider>	
+				<dataProvider>
+					<!-- SPG Breakfast Plus -->
+					<ratePreference>SPG Breakfast Plus</ratePreference>
+					<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				</dataProvider>	
+				<dataProvider>
+					<!-- Promotion & Packages -->
+					<ratePreference>Promotions &amp; Packages</ratePreference>
+					<propertyName>Four Points by Sheraton NewBurgh Stewart Airport</propertyName>
+				</dataProvider>	
+				<dataProvider>
+					<!-- Automobile Association -->
+					<ratePreference>Automobile Association</ratePreference>
+				 	<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				</dataProvider>	
+				<dataProvider>
+					<!-- Senior & AARP -->
+					<ratePreference>Senior &amp; AARP</ratePreference>
+					<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				</dataProvider>	
+				<dataProvider>
+					<!-- Government Employee -->
+					<ratePreference>Government Employee</ratePreference>
+					<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				</dataProvider>	
+			</dynamicRatePreferences1>			
+			<dynamicRatePreferences>	
+				<dataProvider1>
+			        <!--SPG Cash and Points -->
+				    <ratePreference>SPG Cash &amp; Points</ratePreference>
+				    <propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				</dataProvider1>
+				<dataProvider2>
+					<!--SPG Member-Only Hot Escapes -->
+					<ratePreference>SPG Member-Only Hot Escapes</ratePreference>
+					<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				</dataProvider2>	
+				<dataProvider3>
+					<!-- Breakfast Package -->
+					<ratePreference>Breakfast Package</ratePreference>
+				 	<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				</dataProvider3>	
+				<dataProvider4>
+					<!-- SPG Breakfast Plus -->
+					<ratePreference>SPG Breakfast Plus</ratePreference>
+					<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				</dataProvider4>	
+				<dataProvider5>
+					<!-- Promotion & Packages -->
+					<ratePreference>Promotions &amp; Packages</ratePreference>
+					<propertyName>Four Points by Sheraton NewBurgh Stewart Airport</propertyName>
+				</dataProvider5>	
+				<dataProvider6>
+					<!-- Automobile Association -->
+					<ratePreference>Automobile Association</ratePreference>
+				 	<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				</dataProvider6>	
+				<dataProvider7>
+					<!-- Senior & AARP -->
+					<ratePreference>Senior &amp; AARP</ratePreference>
+					<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				</dataProvider7>	
+				<dataProvider8>
+					<!-- Government Employee -->
+					<ratePreference>Government Employee</ratePreference>
+					<propertyName>Four Points by Sheraton Bakersfield</propertyName>
+				</dataProvider8>	
+			</dynamicRatePreferences>
+			
+			<RoomRatesDynamicRatePreferencesIos>	
+				<dataProvider>
+					<!-- SPG Cash and Points -->
+				    <ratePreference>SPG Cash &amp; Points</ratePreference>
+				    <propertyName>Four Points by Sheraton Plainview Long Island </propertyName>
+				    <propertyId>81</propertyId>
+				    <checkinDate>15</checkinDate>
+				    <checkoutDate>16</checkoutDate>
+				</dataProvider>
+				<dataProvider>
+					<!-- SPG Member-Only Hot Escapes -->
+					<ratePreference>SPG Member-Only Hot Escapes</ratePreference>
+				    <propertyName>Four Points by Sheraton Plainview Long Island</propertyName>
+				    <propertyId>81</propertyId>
+				    <checkinDate>15</checkinDate>
+				    <checkoutDate>16</checkoutDate>
+				</dataProvider>
+				<dataProvider>
+					<!-- Breakfast Package -->
+					<ratePreference>Breakfast Package</ratePreference>
+				    <propertyName>Four Points by Sheraton Plainview Long Island</propertyName>
+				    <propertyId>81</propertyId>
+				    <checkinDate>15</checkinDate>
+				    <checkoutDate>16</checkoutDate>
+				</dataProvider>
+				<dataProvider>
+					<!-- SPG Breakfast Plus -->
+					<ratePreference>SPG Breakfast Plus</ratePreference>
+				    <propertyName>Four Points by Sheraton Plainview Long Island</propertyName>
+				    <propertyId>81</propertyId>
+				    <checkinDate>15</checkinDate>
+				    <checkoutDate>16</checkoutDate>
+				</dataProvider>
+				<dataProvider>
+			      	<!--Promotion & Packages -->
+					<ratePreference>Promotions &amp; Packages</ratePreference>
+				    <propertyName>Four Points by Sheraton Plainview Long Island</propertyName>
+				    <propertyId>81</propertyId>
+				    <checkinDate>15</checkinDate>
+				    <checkoutDate>16</checkoutDate>
+				</dataProvider>
+				<dataProvider>
+					<!-- Automobile Association -->
+					<ratePreference>Automobile Association</ratePreference>
+				    <propertyName>Four Points by Sheraton Plainview Long Island</propertyName>
+				    <propertyId>81</propertyId>
+				    <checkinDate>15</checkinDate>
+				    <checkoutDate>16</checkoutDate>
+				</dataProvider>
+				<dataProvider>
+					<!-- Senior & AARP -->
+					<ratePreference>Senior &amp; AARP</ratePreference>
+				    <propertyName>Four Points by Sheraton Plainview Long Island</propertyName>
+				    <propertyId>81</propertyId>
+				    <checkinDate>15</checkinDate>
+				    <checkoutDate>16</checkoutDate>
+				</dataProvider>
+				<dataProvider>
+					<!-- Government Employee -->
+					<ratePreference>Government Employee</ratePreference>
+				    <propertyName>Four Points by Sheraton Plainview Long Island</propertyName>
+				    <propertyId>81</propertyId>
+				    <checkinDate>15</checkinDate>
+				    <checkoutDate>16</checkoutDate>
+				</dataProvider>
+			</RoomRatesDynamicRatePreferencesIos>
+
+				
+			<RatePreferenceSeperateSet>
+				<dataProvider>
+					<!-- Lowest Standard Rate Preference -->
+					<lowestRatePreference>Lowest Standard Rate</lowestRatePreference>
+				 	<lowestPropertyName>The New York Helmsley Hotel</lowestPropertyName>
+				 	<!-- SPG Free Nights -->
+					<spgRatePreference>SPG Free Nights</spgRatePreference>
+				 	<spgPropertyName>Four Points by Sheraton Plainview Long Island</spgPropertyName>
+				 	<!-- SET/Corporate Account -->
+					<setRatePreference>SET/Corporate Account #:</setRatePreference>
+					<setPropertyName>The St. Regis Florence</setPropertyName>
+					<setNumber>564768346</setNumber>	
+				</dataProvider>	
+			</RatePreferenceSeperateSet>
+			<moperDiffCountryData>
+				<dataProvider>
+					<!-- Phone no for France -->
+					<username>42931741262</username>
+					<password>test123</password>
+					<phoneNo>1 43 57 45 95</phoneNo>
+					<countryCode>FR (+33)</countryCode>
+				</dataProvider>
+				<dataProvider>
+					<!-- Phone no for Germany -->
+					<username>42931741246</username>
+					<password>test123</password>
+					<phoneNo>711 295949</phoneNo>
+					<countryCode>DE (+49)</countryCode>
+				</dataProvider>
+				<dataProvider>
+					<!-- Phone no for Canada -->
+					<username>42931766168</username>
+					<password>test123</password>
+					<phoneNo>905 295 4436</phoneNo>
+					<countryCode>CA (+1)</countryCode>
+				</dataProvider>
+				<dataProvider>
+					<!-- Phone no for Hong Kong -->
+					<username>42931741300</username>
+					<password>test123</password>
+					<phoneNo>3196 8888</phoneNo>
+					<countryCode>HK (+852)</countryCode>
+				</dataProvider>
+				<dataProvider>
+					<!-- Phone no for United Kingdom -->
+					<username>42931766176</username>
+					<password>test123</password>
+					<phoneNo>20 7352 4441</phoneNo>
+					<countryCode>GB (+44)</countryCode>
+				</dataProvider>
+				<dataProvider>
+					<!-- Phone no for Australia -->
+					<username>42931766117</username>
+					<password>test123</password>
+					<phoneNo>7 3222 3148</phoneNo>
+					<countryCode>AU (+61)</countryCode>
+				</dataProvider>
+				<dataProvider>
+					<!-- Phone no for India -->
+					<username>42931741289</username>
+					<password>test123</password>
+					<phoneNo>20 6726 0107</phoneNo>
+					<countryCode>IN (+91)</countryCode>
+				</dataProvider>
+				<dataProvider>
+					<!-- Phone no for United States -->
+					<username>42931766150</username>
+					<password>test123</password>
+					<phoneNo>6104429938</phoneNo>
+					<countryCode>US (+1)</countryCode>
+				</dataProvider>
+				<dataProvider>
+					<!-- Phone no for Indonesia -->
+					<username>42931766133</username>
+					<password>test123</password>
+					<phoneNo>370 693619</phoneNo>
+					<countryCode>ID +62</countryCode>
+				</dataProvider>
+				<dataProvider>
+					<!-- Phone no for China -->
+					<username>42931766141</username>
+					<password>test123</password>
+					<phoneNo>471 336 6888</phoneNo>
+					<countryCode>CN (+86)</countryCode>
+				</dataProvider>
+			</moperDiffCountryData>
+			
+			<moperHavingData>
+				<dataProvider>
+					<!-- moper Supported Mobile No -->
+					<username>is_moper1@mailinator.com</username>
+					<password>test123</password>
+					<phoneNo>2866875001</phoneNo>
+					<countryCode>CA (+1)</countryCode>
+				</dataProvider>
+				<dataProvider>
+					<!-- moper Supported, Unsupported, Multiple Mobile No, Other No -->
+					<username>is_moper5@mailinator.com</username>
+					<password>test123</password>
+					<phoneNo>05532245533</phoneNo>
+					<countryCode>GB (+44)</countryCode>
+				</dataProvider>
+				<dataProvider>
+					<!-- moper Supported, Unsupported, Multiple Mobile No -->
+					<username>is_moper4@mailinator.com</username>
+					<password>test123</password>
+					<phoneNo>0120885512</phoneNo>
+					<countryCode>GB (+44)</countryCode>
+				</dataProvider>
+				<dataProvider>
+					<!-- moper Supported, Multiple Mobile No -->
+					<username>is_moper3@mailinator.com</username>
+					<password>test123</password>
+					<phoneNo>07927464098</phoneNo>
+					<countryCode>IN (+91)</countryCode>
+				</dataProvider>
+			</moperHavingData>
+			
+			<moperNoData>
+				<dataProvider>
+					<!-- moper No Supported Mobile No -->
+					<username>is_moper2@mailinator.com</username>
+					<password>test123</password>
+					<phoneNo>8956238956</phoneNo>
+					<countryCode>US (+1)</countryCode>
+				</dataProvider>
+				<dataProvider>
+					<!-- moper No Mobile no -->
+					<username>42869821386</username>
+					<password>test123</password>
+					<phoneNo>8956238956</phoneNo>
+					<countryCode>US (+1)</countryCode>
+				</dataProvider>
+			</moperNoData>
+			
+			<emailID>
+				<dataProvider>
+					<validEmail>perf_0721060436.510@pt.com</validEmail>				
+					<id1>testtest@test.com</id1>
+					<confirmId1>testtest@test.in</confirmId1>
+					<id2>testtest@testcom</id2>
+					<confirmId2>testtest@testcom</confirmId2>
+					<id3>testtesttest.com</id3>
+					<confirmId3>testtesttest.com</confirmId3>
+				</dataProvider>
+			</emailID>
+		
+		</ios>
+		
+		<iOScategoryHotelData>
+			<category1>
+				<!-- Bangkok, Thailand -->
+                <checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <!-- Aloft Bangkok - Sukhumvit 11 -->
+                <propertyName>Aloft Bangkok - Sukhumvit 11</propertyName>
+                <categoryType>1</categoryType>
+                <starpoints>1500</starpoints>
+                <rates>30</rates>
+			</category1>
+			<category2>
+        		<checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+				<propertyName>Four Points by Sheraton Philadelphia AirportConference</propertyName>
+                <propertyId>81</propertyId>
+                <categoryType>2</categoryType>
+                <starpoints>2000</starpoints>
+                <rates>35</rates>
+                <stayDays>5</stayDays>
+	            <StayDaysMoreThan5>6</StayDaysMoreThan5>
+	            <StayDaysExact30>30</StayDaysExact30>
+	            <StayDaysMoreThan30>32</StayDaysMoreThan30>
+			</category2>
+			<category3>
+				<categoryType>3</categoryType>
+				<checkinDate>15</checkinDate>
+				<checkoutDate>16</checkoutDate>
+				<propertyName>The Westin Grande Sukhumvit, Bangkok</propertyName>
+				<propertyId>81</propertyId>
+				<starpoints>3500</starpoints>
+                <rates>55</rates>
+                <stayDays>5</stayDays>
+			</category3>
+			<category4>
+				<destination>Bangkok, Thailand</destination>
+                <checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <propertyName>Sheraton Grande Sukhumvit, Bangkok</propertyName>
+                <propertyId>81</propertyId>
+                <categoryType>4</categoryType>
+                <starpoints>5000</starpoints>
+                <rates>75</rates>
+                <stayDays>3</stayDays>
+           		<StayDaysMoreThan5>6</StayDaysMoreThan5>
+	            <StayDaysExact30>30</StayDaysExact30>
+	        	<StayDaysMoreThan30>32</StayDaysMoreThan30>
+			</category4>
+			<category5>
+				<destination>Sydney, Australia</destination>
+                <checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <propertyName>Sheraton on the Park</propertyName>
+                <propertyId>140</propertyId>
+                <categoryType>5</categoryType>
+                <starpoints>6000</starpoints>
+                <rates>110</rates>
+                <stayDays>3</stayDays>
+             	<StayDaysMoreThan5>6</StayDaysMoreThan5>
+	            <StayDaysExact30>30</StayDaysExact30>
+	            <StayDaysMoreThan30>32</StayDaysMoreThan30>
+			</category5>
+			<category6>
+                <checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <propertyName>W New York - Union Square</propertyName>
+                <propertyId>81</propertyId>
+                <categoryType>6</categoryType>
+                <starpoints>10000</starpoints>
+                <rates>180</rates>
+			</category6>
+			<category7>
+				<categoryType>7</categoryType>
+				<checkinDate>15</checkinDate>
+				<checkoutDate>16</checkoutDate>
+				<propertyName>The St. Regis Bali Resort</propertyName>
+				<propertyId>81</propertyId>
+				<starpoints>15000</starpoints>
+                <rates>275</rates>
+			</category7>
+		</iOScategoryHotelData>
+		
+		<androidCategoryHotelData>
+			<category1>
+				<!-- Bangkok, Thailand -->
+				<checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <propertyName>Aloft Bangkok - Sukhumvit 11</propertyName>
+                <categoryType>1</categoryType>
+                <starpoints>1,500</starpoints>
+                <rates>30</rates>
+			</category1>
+			<category2>
+        		<checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+				<propertyName>Four Points by Sheraton Philadelphia Airport</propertyName>
+                <propertyId>81</propertyId>
+                <categoryType>2</categoryType>
+                <starpoints>2,000</starpoints>
+                <rates>35</rates>
+                <stayDays>5</stayDays>
+	            <StayDaysMoreThan5>6</StayDaysMoreThan5>
+	            <StayDaysExact30>30</StayDaysExact30>
+	            <StayDaysMoreThan30>32</StayDaysMoreThan30>
+			</category2>
+			<category3>
+				<categoryType>3</categoryType>
+				<checkinDate>15</checkinDate>
+				<checkoutDate>16</checkoutDate>
+				<propertyName>The Westin Grande Sukhumvit, Bangkok</propertyName>
+				<propertyId>81</propertyId>
+				<starpoints>3,500</starpoints>
+                <rates>55</rates>
+                <stayDays>5</stayDays>
+			</category3>
+			<category4>
+				<destination>Bangkok, Thailand</destination>
+                <checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <propertyName>Sheraton Grande Sukhumvit, Bangkok</propertyName>
+                <propertyId>81</propertyId>
+                <categoryType>4</categoryType>
+                <starpoints>5,000</starpoints>
+                <rates>75</rates>
+                <stayDays>3</stayDays>
+           		<StayDaysMoreThan5>6</StayDaysMoreThan5>
+	            <StayDaysExact30>30</StayDaysExact30>
+	        	<StayDaysMoreThan30>32</StayDaysMoreThan30>
+			</category4>
+			<category5>
+				<destination>Sydney, Australia</destination>
+                <checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <propertyName>Sheraton on the Park</propertyName>
+                <propertyId>140</propertyId>
+                <categoryType>5</categoryType>
+                <starpoints>6,000</starpoints>
+                <rates>110</rates>
+                <stayDays>3</stayDays>
+             	<StayDaysMoreThan5>6</StayDaysMoreThan5>
+	            <StayDaysExact30>30</StayDaysExact30>
+	            <StayDaysMoreThan30>32</StayDaysMoreThan30>
+			</category5>
+			<category6>
+                <checkinDate>15</checkinDate>
+                <checkoutDate>16</checkoutDate>
+                <propertyName>W New York - Union Square</propertyName>
+                <propertyId>81</propertyId>
+                <categoryType>6</categoryType>
+                <starpoints>10,000</starpoints>
+                <rates>180</rates>
+			</category6>
+			<category7>
+				<categoryType>7</categoryType>
+				<checkinDate>15</checkinDate>
+				<checkoutDate>16</checkoutDate>
+				<propertyName>The St. Regis Bali Resort</propertyName>
+				<propertyId>81</propertyId>
+				<starpoints>15,000</starpoints>
+                <rates>275</rates>
+			</category7>
+		</androidCategoryHotelData>
+	</spg>
+</root>
